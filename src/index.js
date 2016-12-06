@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import AppTheme from './AppTheme';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <AppTheme />,
   document.getElementById('root')
 );
